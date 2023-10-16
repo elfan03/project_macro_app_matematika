@@ -136,6 +136,7 @@
             app:layout_constraintVertical_bias="0.162"
             tools:ignore="TextSizeCheck" />
         <Button
+            style="@android:style/Widget.Button"
             android:textColor="@color/white"
             android:id="@+id/btnmasuk"
             android:layout_width="250dp"
@@ -144,7 +145,7 @@
             android:layout_marginTop="20dp"
             android:background="@drawable/butonshape"
             android:fontFamily="@font/lato_bold"
-            android:text="SIMPAN"
+            android:text="Simpan"
             android:textSize="20sp"></Button>
     </LinearLayout>
 

@@ -151,6 +151,7 @@
             android:padding="1dp">
 
             <Button
+                style="@android:style/Widget.Button"
                 android:id="@+id/btnmasuk"
                 android:layout_width="130dp"
                 android:layout_height="45dp"
@@ -162,7 +163,7 @@
                 android:textSize="20sp"></Button>
 
             <Button
-
+                style="@android:style/Widget.Button"
                 android:id="@+id/btnmendaftar"
                 android:layout_width="130dp"
                 android:layout_height="45dp"
