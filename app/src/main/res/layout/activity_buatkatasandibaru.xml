@@ -18,16 +18,16 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.191"
+        app:layout_constraintVertical_bias="0.174"
         tools:ignore="MissingConstraints">
 
         <TextView
-            android:fontFamily="@font/lato"
-            android:textColor="@color/black"
             android:id="@+id/tvlupasandi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/lato"
             android:text="Buat kata sandi baru"
+            android:textColor="@color/black"
             android:textSize="40dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -38,13 +38,13 @@
             app:layout_constraintVertical_bias="0.237" />
 
         <TextView
-            android:fontFamily="@font/lato"
-            android:textColor="@color/black"
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:fontFamily="@font/lato"
             android:text="Jaga keamanan akun Anda dengan membuat kata sandi yang kuat."
+            android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.627"
@@ -53,13 +53,13 @@
             app:layout_constraintVertical_bias="0.292" />
 
         <TextView
-            android:fontFamily="@font/lato"
-            android:textColor="@color/black"
             android:id="@+id/tvusername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/lato"
             android:paddingTop="10dp"
             android:text="Kata sandi baru"
+            android:textColor="@color/black"
             android:textSize="15dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -89,14 +89,14 @@
             app:layout_constraintVertical_bias="0.219" />
 
         <TextView
-            android:fontFamily="@font/lato"
-            android:textColor="@color/black"
             android:id="@+id/tvkonfirmasikatasandibaru"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/lato"
             android:gravity="left"
             android:paddingTop="10dp"
             android:text="Konfirmasi kata sandi"
+            android:textColor="@color/black"
             android:textSize="15dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -126,10 +126,10 @@
             app:layout_constraintVertical_bias="0.219" />
 
         <TextView
-            android:fontFamily="@font/lato"
             android:id="@+id/tvperingatan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/lato"
             android:text="Kata sandi Anda setidaknya harus mengandung karakter atas"
             android:textSize="15dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -139,10 +139,10 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.162"
             tools:ignore="TextSizeCheck" />
+
         <Button
-            style="@android:style/Widget.Button"
-            android:textColor="@color/white"
             android:id="@+id/btnmasuk"
+            style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -150,6 +150,7 @@
             android:background="@drawable/butonshape"
             android:fontFamily="@font/lato_bold"
             android:text="Simpan"
+            android:textColor="@color/white"
             android:textSize="20sp"></Button>
     </LinearLayout>
 

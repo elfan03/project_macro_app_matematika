@@ -36,7 +36,7 @@
         <ImageView
             android:id="@+id/lip"
             android:layout_width="49dp"
-            android:layout_height="107dp"
+            android:layout_height="106dp"
             app:srcCompat="@drawable/profil" />
 
         <LinearLayout
@@ -75,7 +75,6 @@
             android:id="@+id/edt_masukanemail"
             android:layout_width="match_parent"
             android:layout_height="45dp"
-            android:layout_marginEnd="4dp"
             android:background="@drawable/butonshape"
             android:backgroundTint="#465770"
             android:drawableStart="@drawable/iconpencarian"
@@ -91,7 +90,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="187dp"
+            android:layout_height="141dp"
             android:layout_gravity="center"
             android:gravity="center"
             android:orientation="horizontal">
@@ -112,10 +111,10 @@
 
             <Button
                 android:id="@+id/btn_quiz"
-                android:layout_marginLeft="10dp"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
                 android:background="@drawable/butonshape"
                 android:drawableTop="@drawable/latihan"
                 android:drawablePadding="10dp"
@@ -124,12 +123,13 @@
                 android:textColor="@color/white"
                 android:textSize="10sp"
                 tools:ignore="TouchTargetSizeCheck"></Button>
+
             <Button
                 android:id="@+id/btn_videopembelajaran"
-                android:layout_marginLeft="10dp"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
                 android:background="@drawable/butonshape"
                 android:drawableTop="@drawable/latihan"
                 android:drawablePadding="10dp"
@@ -143,7 +143,7 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="45dp"
+            android:layout_height="wrap_content"
             android:backgroundTint="#465770"
             android:gravity="center"
             android:hint="Halaman yang mungkin kamu sukai"
@@ -153,6 +153,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             tools:ignore="MissingConstraints,TouchTargetSizeCheck"
             tools:layout_editor_absoluteY="227dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"
+            android:layout_marginBottom="10dp"/>
 
         <LinearLayout
             android:layout_marginTop="10dp"
