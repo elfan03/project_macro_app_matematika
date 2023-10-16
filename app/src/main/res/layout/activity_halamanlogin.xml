@@ -39,7 +39,7 @@
             android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/lato_bold"
+            android:fontFamily="@font/lato"
             android:gravity="left"
             android:paddingTop="10dp"
             android:text="Email"
@@ -49,9 +49,10 @@
         <EditText
             android:id="@+id/edt_masukanusername"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="45dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/butonshape3"
+            android:fontFamily="@font/lato"
             android:drawablePadding="5dp"
             android:hint="Masukan username"
             android:inputType="textPersonName"
@@ -60,6 +61,7 @@
             android:textColorHint="@color/textisi" />
 
         <TextView
+            android:fontFamily="@font/lato"
             android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -70,9 +72,10 @@
             tools:ignore="TextSizeCheck" />
 
         <EditText
+            android:fontFamily="@font/lato"
             android:id="@+id/edt_masukansandi"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="45dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/butonshape3"
             android:drawablePadding="5dp"
