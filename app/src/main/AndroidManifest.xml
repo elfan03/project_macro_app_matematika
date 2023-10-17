@@ -19,6 +19,9 @@
             android:name=".Berhasilbuatakunn"
             android:exported="false" />
         <activity
+            android:name=".MenuQuiz"
+            android:exported="false" />
+        <activity
             android:name=".Home"
             android:exported="false" />
         <activity

@@ -22,9 +22,7 @@
             android:background="@drawable/searchview_background"
             android:iconifiedByDefault="false"
             android:queryBackground="@android:color/transparent"
-            android:queryHint="ketik sesuatu"
-
-            />
+            android:queryHint="ketik sesuatu" />
 
         <ListView
             android:id="@+id/userlist"
@@ -32,7 +30,6 @@
             android:layout_height="464dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp" />
-
         <ImageView
             android:layout_width="428dp"
             android:layout_height="125dp"

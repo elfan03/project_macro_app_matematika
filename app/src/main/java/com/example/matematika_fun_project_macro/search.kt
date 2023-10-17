@@ -6,6 +6,6 @@ import android.os.Bundle
 class search : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_search2)
+        setContentView(R.layout.activity_search)
     }
 }

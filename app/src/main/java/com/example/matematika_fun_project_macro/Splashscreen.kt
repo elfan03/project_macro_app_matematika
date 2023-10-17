@@ -14,7 +14,7 @@ class Splashscreen : AppCompatActivity() {
         setContentView(R.layout.activity_splashscreen)
         CoroutineScope(Dispatchers.Main).launch {
             delay(2000)
-            val intent = Intent(this@Splashscreen, Halamanlogin::class.java)
+            val intent = Intent(this@Splashscreen, MenuQuiz::class.java)
             startActivity(intent)
             finish()
         }
